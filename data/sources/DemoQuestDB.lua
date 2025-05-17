@@ -8,7 +8,7 @@ local v0={};local v1=string.char;local v2=string.byte;local v3=string.sub;local 
       start:
         target: Aubergiste Farley
       objectives:
-        - kill 3 "Tunnelier kobold"
+        - explore "Goldshire"
       complete:
         target: Aubergiste Farley
         text: Retournez voir %t avec la farine.
