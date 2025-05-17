@@ -19,8 +19,6 @@ local v0={};local v1=string.char;local v2=string.byte;local v3=string.sub;local 
           L'aubergiste de Goldshire est désespéré. Son sac de farine a été volé par des kobolds qui rôdent dans les collines au nord.
           Pourriez-vous l’aider à le retrouver ?
         completion: Merci pour la farine. Je vais pouvoir faire du pain maintenant !
-      start:
-        target: Aubergiste Farley
       objectives:
         - use-emote:
             emote: prier
