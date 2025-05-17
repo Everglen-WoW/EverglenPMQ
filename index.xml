@@ -1,0 +1,12 @@
+<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+  <Script file="PmqCore.lua"/>
+
+  <Include file="util/index.xml"/>
+
+  <Include file="events/index.xml"/>
+  <Include file="data/index.xml"/>
+  <Include file="game/index.xml"/>
+  <Include file="qeng/index.xml"/>
+  <Include file="msg/index.xml"/>
+  <Include file="gui/index.xml"/>
+</Ui>

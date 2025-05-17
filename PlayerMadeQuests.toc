@@ -1,0 +1,13 @@
+## Interface: 11507
+## Title: EverglenPMQ
+## Author: nathaaaan AKA xdev (orginal by : dolphinspired)
+## Notes: Créez vos propres quêtes et partagez-les avec d'autres joueurs !
+## Version: 0.1.0-beta
+## RequiredDeps:
+## OptionalDeps:
+## SavedVariables: PMQGlobalCache
+## SavedVariablesPerCharacter: PMQCache
+
+dependencies.xml
+PmqConfig.lua
+index.xml

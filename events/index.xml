@@ -1,0 +1,11 @@
+<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+  <Script file="events/Lifecycle.lua"/>
+
+  <!-- Possible lifecycle dependency -->
+  <Script file="events/AppEvents.lua"/>
+  <Script file="events/CombatLogEvents.lua"/>
+  <Script file="events/GameEvents.lua"/>
+  <Script file="events/GameEventsList.lua"/>
+  <Script file="events/MessageEvents.lua"/>
+  <Script file="events/QuestEvents.lua"/>
+</Ui>
