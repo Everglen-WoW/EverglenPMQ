@@ -1,0 +1,18 @@
+{
+  "MinifiyAll": true,
+  "CustomPlugins": {
+    "TableIndirection": 80,
+    "DummyFunctionArgs": [2, 5],
+    "EncryptFuncDeclaration": true,
+    "CallRetAssignment": [100],
+
+    "EncryptStrings": [100],
+    "CachedEncryptStrings": [100],
+    "SwizzleLookups": [100],
+
+    "MutateAllLiterals": [80],
+    "JunkifyAllIfStatements": [100],
+    "RevertAllIfStatements": [50],
+    "ControlFlowFlattenV1AllBlocks": [80]
+  }
+}
