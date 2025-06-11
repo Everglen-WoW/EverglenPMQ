@@ -1,0 +1,74 @@
+<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+  <Script file="qeng/QuestScript.lua"/>
+  <Script file="qeng/QuestStatus.lua"/>
+  <Script file="qeng/QuestEngineLogger.lua"/>
+  <Script file="qeng/QuestEngine.lua"/>
+  <Script file="qeng/QuestActions.lua"/>
+  <Script file="qeng/ReputationEngine.lua"/>
+
+  <Script file="qeng/core/Checkpoint.lua"/>
+  <Script file="qeng/core/Condition.lua"/>
+  <Script file="qeng/core/Objective.lua"/>
+  <Script file="qeng/core/Parameter.lua"/>
+  <Script file="qeng/core/Quest.lua"/>
+
+  <!-- Tools require the QuestEngine to be loaded,
+       but need to be available for the compiler, etc. -->
+  <Script file="qeng/tools/DisplayText.lua"/>
+  <Script file="qeng/tools/YamlParser.lua"/>
+
+  <!-- QuestScript runtime files have dependencies on the Engine and Tools. -->
+  <Script file="qeng/QuestScriptCompiler.lua"/>
+
+  <Script file="qeng/parameters/goal.lua"/>
+  <Script file="qeng/parameters/player.lua"/>
+  <Script file="qeng/parameters/rewardchoice.lua"/>
+  <Script file="qeng/parameters/rewarditem.lua"/>
+  <Script file="qeng/parameters/rewardmoney.lua"/>
+  <Script file="qeng/parameters/rewardreputation.lua"/>
+  <Script file="qeng/parameters/sametarget.lua"/>
+  <Script file="qeng/parameters/text.lua"/>
+
+  <Script file="qeng/checkpoints/recreq.lua"/>
+  <Script file="qeng/checkpoints/rewards.lua"/>
+  <Script file="qeng/checkpoints/startcomplete.lua"/>
+
+  <Script file="qeng/objectives/cast-spell.lua"/>
+  <Script file="qeng/objectives/equip-item.lua"/>
+  <Script file="qeng/objectives/explore.lua"/>
+  <Script file="qeng/objectives/gain-aura.lua"/>
+  <Script file="qeng/objectives/kill.lua"/>
+  <Script file="qeng/objectives/loot-item.lua"/>
+  <Script file="qeng/objectives/say.lua"/>
+  <Script file="qeng/objectives/talk-to.lua"/>
+  <Script file="qeng/objectives/use-emote.lua"/>
+
+  <Script file="qeng/conditions/aura.lua"/>
+  <Script file="qeng/conditions/channel.lua"/>
+  <Script file="qeng/conditions/class.lua"/>
+  <Script file="qeng/conditions/emote.lua"/>
+  <Script file="qeng/conditions/equip.lua"/>
+  <Script file="qeng/conditions/faction.lua"/>
+  <Script file="qeng/conditions/item.lua"/>
+  <Script file="qeng/conditions/killtarget.lua"/>
+  <Script file="qeng/conditions/killtargetclass.lua"/>
+  <Script file="qeng/conditions/killtargetfaction.lua"/>
+  <Script file="qeng/conditions/killtargetguild.lua"/>
+  <Script file="qeng/conditions/killtargetlevel.lua"/>
+  <Script file="qeng/conditions/language.lua"/>
+  <Script file="qeng/conditions/level.lua"/>
+  <Script file="qeng/conditions/message.lua"/>
+  <Script file="qeng/conditions/position.lua"/>
+  <Script file="qeng/conditions/recipient.lua"/>
+  <Script file="qeng/conditions/spell.lua"/>
+  <Script file="qeng/conditions/spelltarget.lua"/>
+  <Script file="qeng/conditions/spelltargetclass.lua"/>
+  <Script file="qeng/conditions/spelltargetfaction.lua"/>
+  <Script file="qeng/conditions/spelltargetguild.lua"/>
+  <Script file="qeng/conditions/spelltargetlevel.lua"/>
+  <Script file="qeng/conditions/target.lua"/>
+  <Script file="qeng/conditions/targetclass.lua"/>
+  <Script file="qeng/conditions/targetfaction.lua"/>
+  <Script file="qeng/conditions/targetguild.lua"/>
+  <Script file="qeng/conditions/targetlevel.lua"/>
+</Ui>
