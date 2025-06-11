@@ -1,8 +1,8 @@
 ## Interface: 11507
 ## Title: EverglenPMQ
-## Author: nathaaaan & firestar (orginal by : dolphinspired)
+## Author: nathaaaan, firestar & erval (orginal by : dolphinspired)
 ## Notes: Créez vos propres quêtes et partagez-les avec d'autres joueurs !
-## Version: 0.1.2-beta
+## Version: 0.1.1-beta
 ## RequiredDeps:
 ## OptionalDeps:
 ## SavedVariables: PMQGlobalCache
