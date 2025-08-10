@@ -435,7 +435,7 @@ local v0={};local v1=string.char;local v2=string.byte;local v3=string.sub;local 
 
       complete:
         target: Balthule Shadowstrike
-        text: Faite votre rapport à Balthule devant la tour d'Althalaxx.
+        text: Faite votre rapport à Balthule devant la tour Althalaxx.
 
       rewards:
         player: Bazeal
